@@ -228,10 +228,9 @@ packages:
   isar:
     dependency: "direct main"
     description:
-      name: isar
-      sha256: "814695aa17cd1e725f7b751264cc45f0780b9070be6138c556d8b02c19117e48"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../isar"
+      relative: true
+    source: path
     version: "3.0.6-dev.0"
   js:
     dependency: transitive
@@ -530,4 +529,4 @@ packages:
     source: hosted
     version: "3.1.1"
 sdks:
-  dart: ">=3.0.5 <4.0.0"
+  dart: ">=2.19.0 <3.0.0"
